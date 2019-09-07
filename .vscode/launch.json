@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SpeedTest",
+            "request": "launch",
+            "mainClass": "SpeedTest",
+            "projectName": "Programming_193be6a3"
+        }
+    ]
+}

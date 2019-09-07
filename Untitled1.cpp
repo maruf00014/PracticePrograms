@@ -1,0 +1,45 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int tmonth,im;
+	float mpay,cv,owes;
+	while(cin>> tmonth>>mpay>>cv>>im){
+		int m[im];
+		float  r[im],tr,iv;
+	for(int i=0;i<im;i++)
+	{
+
+		cin>>m[i]>>r[i];
+
+		}
+
+		tr = r[0];
+		cv+=mpay;
+		 cv-=cv*tr;
+
+			int count = 1,mr=1;
+		 while(cv>=owes){
+
+
+		 	owes-=mpay;
+
+		 	if(count == m[mr])
+		 {	tr = r[mr];
+		 mr++;
+		 }
+		 	cv-=cv*tr;
+		 	count++;
+		 }
+
+		 if(count>1) cout<<count<<" months"<<endl;
+		 else  cout<<count<<" month"<<endl;
+
+
+
+		 	}
+
+	return 0;
+
+}

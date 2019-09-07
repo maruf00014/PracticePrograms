@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NoteCount",
+            "request": "launch",
+            "mainClass": "NoteCount",
+            "projectName": "JAVA_722ba0e"
+        }
+    ]
+}
